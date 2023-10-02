@@ -63,7 +63,7 @@ header {
     text-decoration: none;
 }
 
-@media screen and (min-width: 375px)  {
+@media screen and (min-width: 375px) {
     .head-menu {
         display: none;
     }
@@ -79,11 +79,76 @@ header {
     }
 }
 
-
-
 /* MAIN */
 
 /* HERO */
+
+.container-card {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 1.3rem;
+}
+
+.col .col-large {
+    background-color: hsl(207.57deg 100% 85.49%);
+    border-radius: 2rem;
+}
+
+.col-large  {
+    background-color: hsl(207.57deg 100% 85.49%);
+    border-radius: 2rem;
+    padding: 2rem;
+}
+
+.demo-app {
+    color: hsl(208.7deg 100% 49.61%) ;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.lorem {
+    padding: 1rem;
+    margin-bottom: 40px;
+}
+
+.apple-btn {
+    color: white;
+    background-color:hsl(208.7deg 100% 49.61%) ;
+    padding: .7rem;
+    border-radius: 20px;  
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    gap: .7rem;
+    align-items: center;
+}
+
+.phone {
+    margin-top: 50px;
+}
+
+
+@media screen and (min-width: 376px) {
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
+
+    .col-large {
+        width: 100%;
+        
+    }
+
+    .col-large {
+        width: calc(50% - 1rem);
+    }
+
+    .col {
+        width: calc(100% / 3 - 4rem / 3);
+    }
+}
 
 /* STRATEGIC SECTION */
 
