@@ -90,15 +90,19 @@ header {
     padding: 1.3rem;
 }
 
-.col .col-large {
+.col {
     background-color: hsl(207.57deg 100% 85.49%);
     border-radius: 2rem;
+    padding: 2rem;
+    margin-top: 0px;
+    margin-bottom: 20px;
 }
 
 .col-large  {
     background-color: hsl(207.57deg 100% 85.49%);
     border-radius: 2rem;
     padding: 2rem;
+    margin-bottom: 20px; 
 }
 
 .demo-app {
@@ -107,7 +111,19 @@ header {
     margin-bottom: 15px;
 }
 
+.demo-app-l {
+    color: hsl(208.7deg 100% 49.61%) ;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
 .lorem {
+    padding: 1rem;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.lorem-l {
     padding: 1rem;
     margin-bottom: 40px;
 }
@@ -126,6 +142,12 @@ header {
 
 .phone {
     margin-top: 50px;
+}
+
+.icon {
+   font-size: 80px;
+   text-align: center;
+   margin-bottom: 20px;
 }
 
 
@@ -147,6 +169,43 @@ header {
 
     .col {
         width: calc(100% / 3 - 4rem / 3);
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .col-large {
+        width: 65%;
+    }
+
+    .apple-btn {
+        display: inline;
+        margin-left: 10px;
+    }
+
+    .lorem-l  {
+        text-align: left;
+       
+    }
+
+    .demo-app-l {
+        text-align: left;
+        margin-left: 20px;
+    }
+
+    .phone{
+        width: 60%;
+    }
+    
+}
+
+@media screen and (min-width: 992px){
+
+    .apple-btn {
+        display: inline-block;
+    }
+
+    .phone {
+        width: 40%;
     }
 }
 
