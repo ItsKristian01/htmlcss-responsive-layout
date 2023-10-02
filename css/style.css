@@ -209,7 +209,65 @@ header {
     }
 }
 
-/* STRATEGIC SECTION */
+/* PLANNING SECTION */
+
+.container-strat {
+    width: 100%;
+    margin: 0 auto;
+    background-color: hsl(243.66deg 60.29% 73.33%);
+    padding: 1rem;
+}
+
+.col-strat1 {
+    margin-bottom: 20px;
+}
+
+.col-strat2 {
+    background-color: white;
+    border-radius: 2rem;
+}
+
+.girl {
+    padding: 2rem;
+}
+
+.lorem-white {
+    color: white;
+    padding: 2rem;
+}
+
+.title-plan {
+    color: white;
+    padding: 2rem;
+    font-size: 60px;
+}
+
+.app {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.develop {
+    text-align: center;
+}
+
+.circle-arrow{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+@media screen and (min-width: 992px) {
+    .col-strat1 {
+        width: 40%;
+    }
+
+    .col-strat2 {
+        width: 30%;
+    }
+
+}
 
 /* PARTNER SECTION */
 
