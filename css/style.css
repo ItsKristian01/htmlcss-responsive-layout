@@ -19,10 +19,71 @@ body {
 }
 
 /* HEADER */
+.container {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1100px;
+}
 
-/* HERO */
+header {
+    background-color: hsl(208.7deg 100% 49.61%);
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button {
+    color: black;
+    background-color: white;
+    padding: .7rem;
+    border-radius: 2rem;
+}
+
+
+/* HEAD-BAR */
+
+.bars {
+    font-size: 25px;
+}
+
+.head-menu {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+}
+
+.menu {
+    color: white;
+    text-decoration: none;
+}
+
+.menu-btn {
+    color: black;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 375px)  {
+    .head-menu {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .head-menu {
+        display: flex;
+    }
+
+    .bars {
+        display: none;
+    }
+}
+
+
 
 /* MAIN */
+
+/* HERO */
 
 /* STRATEGIC SECTION */
 
