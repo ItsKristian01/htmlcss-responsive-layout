@@ -334,11 +334,63 @@ header {
         align-items: center;
         justify-content: center;
     }
-
 }
 
-
 /* BENEFITS */
+.title-ben{
+   color: white;
+   text-align: center;
+   margin-bottom: 30px;
+   margin-top: 30px;
+   font-size: 30px;
+}
+
+.col-ben {
+    background-color: white;
+    border-radius: 1rem;
+    padding: 2rem;
+    margin-bottom: 20px;
+}
+
+.number {
+    font-size: 50px;
+    color:hsl(243.66deg 60.29% 73.33%);
+    margin-bottom: 20px;
+}
+
+.sub-title {
+    font-size: 20px;
+    color: hsl(243.66deg 60.29% 73.33%);
+    margin-bottom: 20px;
+}
+
+.benefit-text {
+    margin-bottom: 30px;
+    color: rgb(128 128 128);
+}
+
+.more-btn {
+    color: white;
+    text-decoration: none;
+    background-color: hsl(243.66deg 60.29% 73.33%);
+    padding: 1rem;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    width: 40%;
+}
+
+@media screen and (min-width: 768px){
+    .col-ben {
+        width: calc(100% / 2 - 1rem );
+    }
+}
+
+@media screen and (min-width: 992px){
+    .col-ben {
+        width: 30%;
+    }
+}
 
 /* ABOUTS US */
 
