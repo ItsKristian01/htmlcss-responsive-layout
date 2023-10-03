@@ -328,6 +328,15 @@ header {
     margin-left: 10px;
 }
 
+@media screen and (min-width: 768px)  {
+    .col-part {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
+
 
 /* BENEFITS */
 
