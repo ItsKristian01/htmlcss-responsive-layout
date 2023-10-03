@@ -23,6 +23,7 @@ body {
     width: 100%;
     margin: 0 auto;
     max-width: 1100px;
+    padding: 1rem;
 }
 
 header {
@@ -94,7 +95,6 @@ header {
     background-color: hsl(207.57deg 100% 85.49%);
     border-radius: 2rem;
     padding: 2rem;
-    margin-top: 0px;
     margin-bottom: 20px;
 }
 
@@ -118,7 +118,7 @@ header {
 }
 
 .lorem {
-    padding: 1rem;
+    padding: 2rem;
     margin-bottom: 40px;
     text-align: center;
 }
@@ -225,6 +225,7 @@ header {
 .col-strat2 {
     background-color: white;
     border-radius: 2rem;
+    padding: 1rem;
 }
 
 .girl {
@@ -255,21 +256,78 @@ header {
     font-size: 20px;
     text-align: center;
     margin-top: 20px;
-    
+    background-color: hsl(243.66deg 60.29% 73.33%);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 30px;
 }
 
 @media screen and (min-width: 992px) {
-    .col-strat1 {
-        width: 40%;
+    .col-strat1, .col-strat2 {
+        width: calc(100% / 2 );
+    }
+
+    .title-plan {
+        font-size: 30px;
     }
 
     .col-strat2 {
-        width: 30%;
+        padding: 2rem;
+        width: 40%;
     }
+
+    .container-strat {
+        padding: 10rem;
+    }
+
 
 }
 
 /* PARTNER SECTION */
+
+.col-part {
+    background-color: hsl(243.66deg 60.29% 73.33%);
+    border-radius: 2rem;
+    padding: 2rem;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.test {
+    text-align: center;
+    padding: 1rem;
+    margin-top: 50px;
+}
+
+.partner-text {
+    color:hsl(243.66deg 60.29% 73.33%); 
+    text-align: center;
+    padding: 1rem;
+    font-size: 30px;
+}
+
+.commas {
+    font-size: 20px;
+    color: white;
+}
+
+.description {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding: 1rem;
+}
+
+.partner-img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
 
 /* BENEFITS */
 
